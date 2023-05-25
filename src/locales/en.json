@@ -1,0 +1,165 @@
+{
+  "history": {
+    "confirmDelete": "Delete session?",
+    "empty": "No session found",
+    "chatWith": "Talking to {name}",
+    "searchPlaceholder": "Search session",
+    "title": "Conversation history"
+  },
+  "session": {
+    "chatWith": "Talking to {0}",
+    "chatTip": "Go to the bottom",
+    "regenerate": "Regenerate response",
+    "stopGenerate": "Stop generating",
+    "export": {
+      "image": "Export as image",
+      "markdown": "Export as markdown",
+      "me": "Me"
+    },
+    "tip": {
+      "editRole": "Click on me to edit this profile"
+    },
+    "editRole": {
+      "description": "Description:",
+      "name": "Name:"
+    },
+    "role": {
+      "search": "Please enter a role name keyword search",
+      "add": "Add Profile",
+      "confirmDelete": "Are you sure you want to delete this profile?",
+      "descriptionPlaceholder": "Please enter a profile description",
+      "namePlaceholder": "Please enter a profile name",
+      "pleaseSelect": "Please select a profile for the session",
+      "pleaseType": "Please fill in the profile information",
+      "select": "Please select a profile for the session",
+      "default": {
+        "description": "Please return the answer in markdown form!",
+        "name": "Q&A Bot"
+      }
+    },
+    "empty": {
+      "send": "Submit your question",
+      "wakeUp": "Hide/Show app",
+      "wrap": "Add a line break",
+      "role": "Type {0} before typing to switch profiles"
+    },
+    "imgConfig": {
+      "num": "Number: ",
+      "size": "Size: "
+    },
+    "imgMode": "New image creation",
+    "memoryMode": "Memory Mode",
+    "textMode": "Add Text Conversation",
+    "forecastConsumption": "Estimated consumption",
+    "unknowError": "Unknown error"
+  },
+  "setting": {
+    "tab": {
+      "common": "General",
+      "model": "Model",
+      "about": "About"
+    },
+    "general": {
+      "language": "Language",
+      "theme": "Theme",
+      "wakeUp": "Show/Hide App Hotkey",
+      "autoStart": "Launch at login",
+      "keepPosition": "Keep Position",
+      "proxy": "Proxy",
+      "proxyMadolTip": "Open proxy if inaccessible,You can use the default proxy or your own proxy",
+      "proxyTip": "{0} to apply new proxy.",
+      "restart": "Relaunch",
+      "proxyAddress": "Proxy URL",
+      "example": "e.g."
+    },
+    "model": {
+      "aiModelTip": "Model: {0} intergrated.",
+      "balance": "Account Balance: ",
+      "cents": "Cents￠",
+      "divergenceOfThinking": "Temperature",
+      "maxLengthOfReturn": "Max Tokens",
+      "memory": "Memory Mode",
+      "memoryTip": "Memory mode consumes more tokens.",
+      "showTime": "Display Time",
+      "tokenUsage": "Display Counter",
+      "apikey": "OpenAI API KEY",
+      "balanceTip": "Balance inquiry is temporarily unavailable"
+    },
+    "about": {
+      "community": "Community",
+      "contributor": "Contributors",
+      "copy": "System Info",
+      "copyTip": "Click to copy",
+      "feedback": "Feedback",
+      "feedbackTip": "Please provide system information in feedback",
+      "repository": "Repository",
+      "softwareAndSystemInfo": "Software & system information:\n {info}",
+      "checkUpdate": "Check for updates",
+      "version": {
+        "detail": "Update details:",
+        "updateTime": "Updated: {0}",
+        "updateVersion": "Updated to version: v{0} 👉",
+        "version": "v{0}",
+        "newVersion": "A newer version is available 🥳",
+        "cancelUpdate": "Cancel update",
+        "updateLater": "Update later",
+        "updateNow": "Update immediately",
+        "updating": "Updating..."
+      }
+    },
+    "tip": {
+      "reset": "Double click to reset"
+    },
+    "title": "Setting"
+  },
+  "message": {
+    "pleaseFinishEdit": "Please finish the editing task before proceeding",
+    "titleRequire": "Title cannot be empty",
+    "role": {
+      "changeFail": "A profile is being edited and cannot be switched",
+      "closeFail": "There is a profile in {action}, which cannot be closed",
+      "editUnique": "Only one profile can be edited at a time",
+      "pleaseFinishRoleEdit": "Please finish editing the profile first",
+      "roleUnique": "Only one profile can be selected per session",
+      "emptyError": "Profile information cannot be empty",
+      "deleteFail": "Sorry, the current profile has {sessionLength} historical sessions, which cannot be deleted directly!"
+    },
+    "networkError": "There seems to be a problem with the network. Please open the proxy in the settings or check your network,Or update the key",
+    "pleaseInsertOpenAiApiKey": "Please fill in the OpenAi API KEY first",
+    "generationFailed": "Build failed",
+    "loadImageFail": "Image loading failed, please try again!",
+    "downloadSuccess": "The download was successful",
+    "exportImageFail": "Image export failed, please try again!",
+    "exportImageSuccess": "Image exported successfully",
+    "exportMarkdownFail": "Markdown file export failed, please try again!",
+    "exportMarkdownSuccess": "Markdown file exported successfully",
+    "deleteSuccess": "Successfully deleted",
+    "alreadyTheLatestVersion": "You are running the latest version",
+    "getTheLatestVersionFail": "Failed to get the new version, please try again later",
+    "updateSuccess": "The update was done successfully and will restart soon."
+  },
+  "errors": {
+    "disableApiKey": "The API KEY requested is not valid.",
+    "keyOverLimit": "The limit has been exceeded for the requested key.",
+    "requestError": "Request error"
+  },
+  "tips": {
+    "input": {
+      "placeholder": "Enter your question here",
+      "isThinking": "AI is processing"
+    },
+    "copy": "Copy",
+    "copySuccess": "Copied to clipboard",
+    "copyFail": "Copy failed",
+    "doubleClickToCancelFixed": "To unpin, double-click",
+    "doubleClickToFixed": "To dock the window, double-click it",
+    "role": "Session profile"
+  },
+  "common": {
+    "add": "Add to",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm"    
+  }
+}
