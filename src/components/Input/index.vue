@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { appWindow } from '@tauri-apps/api/window'
+// import '@/utils/tts.ts'
+// import tts from '@/utils/tts';
 
 const { t } = useI18n()
 
@@ -13,6 +15,8 @@ const { currentRole, isEdit, textAreaValue, popoverVisible } =
 const textAreaElement = ref<HTMLTextAreaElement | null>(null)
 
 const onKeydown = (event: KeyboardEvent) => {
+  // console.log("=======")
+  // tts()
   if (event.key === 'Enter') {
     if (isEdit.value) {
       Message.info(t('message.role.pleaseFinishRoleEdit'))
@@ -62,24 +66,14 @@ onMounted(() => {
   <div class="app-input flex items-center gap-2">
     <RoleList />
     <div class="flex w-full flex-col">
-      <a-textarea
-        ref="textAreaElement"
-        class="bordered bg-transparent!"
-        :class="!textAreaValue && 'rounded-10'"
-        :placeholder="
-          isThinking
+      <a-textarea ref="textAreaElement" class="bordered bg-transparent!" :class="!textAreaValue && 'rounded-10'"
+        :placeholder="isThinking
             ? $t('tips.input.isThinking')
             : $t('tips.input.placeholder')
-        "
-        v-model="textAreaValue"
-        :disabled="isThinking || isEdit"
-        :auto-size="{
-          minRows: 1,
-          maxRows: 5
-        }"
-        clearable
-        @keydown="onKeydown"
-      ></a-textarea>
+          " v-model="textAreaValue" :disabled="isThinking || isEdit" :auto-size="{
+    minRows: 1,
+    maxRows: 5
+  }" clearable @keydown="onKeydown"></a-textarea>
     </div>
   </div>
 </template>
@@ -92,6 +86,7 @@ onMounted(() => {
     &:hover {
       --uno: border-[var(--color-neutral-4)];
     }
+
     &.arco-textarea-focus {
       --uno: rounded-0 border-[rgb(var(--primary-6))];
     }

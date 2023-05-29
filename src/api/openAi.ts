@@ -3,7 +3,7 @@ import {
   fetchEventSource,
   type EventSourceMessage
 } from '@microsoft/fetch-event-source'
-import type { MessageData, ImageData } from '@/types'
+import type { MessageData, ImageData, AudioData } from '@/types' // audioData
 
 const { t } = i18n.global
 
@@ -147,3 +147,23 @@ export const getOpenAIImage = async (imageData: ImageData) => {
     body: Body.json(imageData)
   })
 }
+/**
+ * 根据音频生成文本
+ * @param messages 音频参数
+ */
+export const genTextByAudio = async (audioData: AudioData) => {
+  if (!audioData) return
+  const apiKey = getOpenAIKey()
+  if (!apiKey) return
+
+  return await request('/v1/audio/transcriptions', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      HostUrl: HOST_URL.OPENAI,
+      'Content-Type': 'multipart/form-data'
+    },
+    // body: audioData // Body.json(audioData)
+  })
+}
+
