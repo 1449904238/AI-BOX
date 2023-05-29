@@ -50,9 +50,9 @@
 
 Supported Platforms:
 
-- **MacOS**: [Apple Silicon](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v1.0.2/ChatGPT-Desktop_1.0.2_aarch64.dmg) | [Intel](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v1.0.2/ChatGPT-Desktop_1.0.2_x64.dmg)
-- **Windows**: [Windows](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v1.0.2/ChatGPT-Desktop_1.0.2_x64_zh-CN.msi)
-- **Linux**: [Linux](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v1.0.2/chat-gpt-desktop_1.0.2_amd64.deb)
+- **MacOS**: [Apple Silicon](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v2.0.0-0-0/ChatGPT-Desktop_2.0.0-0_aarch64.dmg) | [Intel](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v2.0.0-0-0/ChatGPT-Desktop_2.0.0-0_x64.dmg)
+- **Windows**: [Windows](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v2.0.0-0-0/ChatGPT-Desktop_2.0.0-0_x64_zh-CN.msi)
+- **Linux**: [Linux](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/releases/download/v2.0.0-0-0/chat-gpt-desktop_2.0.0-0_amd64.deb)
 
 <img src='./images/theme.gif' width="100%" />
 
