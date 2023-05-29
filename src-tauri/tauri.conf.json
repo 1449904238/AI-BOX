@@ -72,6 +72,8 @@
     "windows": [
       {
         "label": "main",
+        "minWidth": 800,
+        "minHeight": 600,
         "fullscreen": false,
         "resizable": true,
         "maximized": false,
