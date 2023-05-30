@@ -84,7 +84,7 @@ onMounted(async () => {
       >
         <a
           class="text-[var(--color-text-3)]"
-          href="https://github.com/ChatGPT-Desktop/ChatGPT-Desktop/issues/new"
+          href="https://github.com/1449904238/AI-BOX/issues/new"
         >
           {{ $t('setting.about.feedback') }}
         </a>

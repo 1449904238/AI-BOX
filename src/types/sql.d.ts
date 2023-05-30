@@ -16,6 +16,15 @@ export interface MessageData {
   content: any
 }
 
+export type AudioModel = 'whisper-1'
+export interface AudioData {
+  file: string
+  model: AudioModel
+  prompt: string
+  response_format: string
+  temperature: number
+}
+
 export interface RolePayload {
   id?: number
   name: string

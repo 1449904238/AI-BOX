@@ -1,5 +1,14 @@
 
 
+# [2.0.0-0](https://github.com/1449904238/AI-BOX/compare/v1.0.2...v2.0.0-0) (2023-05-29)
+
+## 1.0.2 (2023-05-29)
+
+
+### Bug Fixes
+
+* xxxx ([e8d1278](https://github.com/1449904238/AI-BOX/commit/e8d1278e5a0fdf12750eccb23ed3c140fec63043))
+
 ## [1.0.1](https://github.com/Synaptrix/ChatGPT-Desktop/compare/v1.0.0...v1.0.1) (2023-04-04)
 
 

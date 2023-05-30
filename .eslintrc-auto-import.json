@@ -30,6 +30,7 @@
     "effectScope": true,
     "estimateTokens": true,
     "executeSQL": true,
+    "genTextByAudio": true,
     "generalKeys": true,
     "getActivePinia": true,
     "getAiImage": true,
