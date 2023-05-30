@@ -152,18 +152,21 @@ export const getOpenAIImage = async (imageData: ImageData) => {
  * @param messages 音频参数
  */
 export const genTextByAudio = async (audioData: AudioData) => {
+  // console.log(Body.json(audioData), '====audioData')
   if (!audioData) return
   const apiKey = getOpenAIKey()
   if (!apiKey) return
 
-  return await requestV2('/v1/audio/transcriptions', {
+  const result = await requestV2('/v1/audio/transcriptions', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
       HostUrl: HOST_URL.OPENAI,
       'Content-Type': 'multipart/form-data'
     },
-    // data: audioData // Body.json(audioData)
+    body: Body.json(audioData) // Body.json(audioData)
   })
+  // console.log(result, '===result=audioData')
+  return result
 }
 

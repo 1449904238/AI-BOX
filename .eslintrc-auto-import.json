@@ -89,6 +89,7 @@
     "readonly": true,
     "ref": true,
     "request": true,
+    "requestV2": true,
     "resizeWindow": true,
     "resolveComponent": true,
     "saveImage": true,
