@@ -156,14 +156,14 @@ export const genTextByAudio = async (audioData: AudioData) => {
   const apiKey = getOpenAIKey()
   if (!apiKey) return
 
-  return await request('/v1/audio/transcriptions', {
+  return await requestV2('/v1/audio/transcriptions', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
       HostUrl: HOST_URL.OPENAI,
       'Content-Type': 'multipart/form-data'
     },
-    // body: audioData // Body.json(audioData)
+    // data: audioData // Body.json(audioData)
   })
 }
 

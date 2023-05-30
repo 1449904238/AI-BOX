@@ -186,10 +186,13 @@ export const initSQL = async () => {
       is_default: true
     }
   ]
-  
+
   const findDefaultRole = await selectSQL('role', [
     { key: 'is_default', value: true }
   ])
+  // findDefaultRole.forEach((role) => {
+  //   deleteSQL('role', role.id)
+  // })
   roleList.forEach(async (res) => {
     let isAdd = true
     findDefaultRole.forEach((role) => {
