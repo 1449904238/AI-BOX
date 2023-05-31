@@ -125,8 +125,8 @@ export const useRoleStore = defineStore(
 
       await updateSQL('role', {
         ...findDefaultRole[0],
-        name: t('session.role.default.name'),
-        description: t('session.role.default.description')
+        name: '默认角色', //t('session.role.default.name'),
+        description: '请以 markdown 的形式返回答案！', //t('session.role.default.description')
       })
 
       if (currentRole.value?.is_default) changeCurrentRole()

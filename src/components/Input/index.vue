@@ -23,6 +23,15 @@ const onKeydown = (event: KeyboardEvent) => {
 
       return
     }
+    // genTextByAudio({
+    //   file: '@/utils/1.wav',
+    //   model: 'whisper-1',
+    //   prompt: textAreaValue.value,
+    //   response_format: 'b64_json',
+    //   temperature: 1
+    // }).then(res => {
+    //   console.log(res, '====')
+    // })
 
     if (!event.shiftKey && event.which !== 229 && !event.isComposing) {
       event.preventDefault()
@@ -68,8 +77,8 @@ onMounted(() => {
     <div class="flex w-full flex-col">
       <a-textarea ref="textAreaElement" class="bordered bg-transparent!" :class="!textAreaValue && 'rounded-10'"
         :placeholder="isThinking
-            ? $t('tips.input.isThinking')
-            : $t('tips.input.placeholder')
+          ? $t('tips.input.isThinking')
+          : $t('tips.input.placeholder')
           " v-model="textAreaValue" :disabled="isThinking || isEdit" :auto-size="{
     minRows: 1,
     maxRows: 5

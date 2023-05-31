@@ -1,4 +1,4 @@
-<a href="https://github.com/Synaptrix/ChatGPT-Desktop">
+<!-- <a href="https://github.com/Synaptrix/ChatGPT-Desktop">
   <img src="https://socialify.git.ci/Synaptrix/ChatGPT-Desktop/image?description=1&descriptionEditable=Lanzador%20extremadamente%20r%C3%A1pido%20para%20la%20API%20de%20ChatGPT%2C%20Asistente%20de%20Chat%20potenciado%20para%20la%20productividad&font=Inter&forks=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FSynaptrix%2FChatGPT-Desktop%2Fmaster%2Fsrc-tauri%2Fassets%2Ficon.png&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Auto" alt="ChatGPT-Desktop"/>
 </a>
 
@@ -152,4 +152,4 @@ También se admite `yarn` O `pnpm`.
 
 ## Licencia
 
-[MIT License](./LICENSE)
+[MIT License](./LICENSE) -->
