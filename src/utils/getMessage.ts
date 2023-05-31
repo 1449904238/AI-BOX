@@ -39,12 +39,13 @@ export async function getMemoryList() {
  * 获取apiKey
  */
 export const getOpenAIKey = () => {
+  // let result = ''
   const { apiKey } = useSettingsStore()
-
-  if (!apiKey) {
-    Message.warning(t('message.pleaseInsertOpenAiApiKey'))
-    return false
-  }
+  if (!apiKey) return process.env.API_KEY
+  // if (!apiKey) {
+  //   Message.warning(t('message.pleaseInsertOpenAiApiKey'))
+  //   return false
+  // }
 
   return apiKey
 }
