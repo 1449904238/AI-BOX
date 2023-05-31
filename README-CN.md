@@ -1,4 +1,4 @@
-<a href="https://github.com/Synaptrix/ChatGPT-Desktop">
+<!-- <a href="https://github.com/Synaptrix/ChatGPT-Desktop">
   <img src="https://socialify.git.ci/Synaptrix/ChatGPT-Desktop/image?description=1&descriptionEditable=%E5%9F%BA%E4%BA%8E%20tauri%20%2Bvue3%20%E5%BC%80%E5%8F%91%E7%9A%84%20ChatGPT%20%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%8C%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%BF%AB%E9%80%9F%E5%94%A4%E9%86%92%E7%AA%97%E5%8F%A3%EF%BC%8C%E9%97%AE%E7%AD%94%E5%BF%AB%E4%BA%BA%E4%B8%80%E6%AD%A5%EF%BC%81&font=Inter&forks=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FSynaptrix%2FChatGPT-Desktop%2Fmaster%2Fsrc-tauri%2Fassets%2Ficon.png&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Auto" alt="ChatGPT-Desktop"/>
 </a>
 
@@ -153,4 +153,4 @@ npm run build:icon
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](./LICENSE) -->
